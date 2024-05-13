@@ -7,13 +7,25 @@
         xmlns:viewmodels="clr-namespace:Enact.ViewModels"
         xmlns:views="clr-namespace:Enact.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Background="#010101">
 
     <Window.DataContext>
         <viewmodels:MainViewModel/>
     </Window.DataContext>
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
 
+        <Grid Grid.Column="0">
+            <StackPanel>
+                <views:StatusView/>
+                <views:SearchPlayerView/>
+                <Button Content="Search" Command="{Binding SearchPlayerCommand}"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
