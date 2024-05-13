@@ -90,6 +90,10 @@ namespace Enact.Services
                     RouteModel.Methods.GET,
                     "matches",
                     new Uri("val/match/v1/matchlists/by-puuid/", UriKind.Relative)
+                ),
+                new RouteModel(RouteModel.Methods.GET,
+                    "content",
+                    new Uri("val/content/v1/contents", UriKind.Relative)
                 )
             };
         }
@@ -152,6 +156,14 @@ namespace Enact.Services
         {
             RouteModel route = Routes.First(x => x.Name == "matches");
             string? response = await Execute(BuildRiotUri($"{route.Uri}/{id}"));
+
+            return (BuildOrNull<SearchModel>(response));
+        }
+
+        public async Task<SearchModel?> Content()
+        {
+            RouteModel route = Routes.First(x => x.Name == "content");
+            string? response = await Execute(BuildRiotUri(route.Uri.OriginalString));
 
             return (BuildOrNull<SearchModel>(response));
         }

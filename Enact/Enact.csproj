@@ -9,6 +9,108 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Astra_Artwork_Full.png" />
+    <None Remove="Resources\Astra_Background_Text.png" />
+    <None Remove="Resources\Breach_Artwork_Full.png" />
+    <None Remove="Resources\Breach_Background_Text.png" />
+    <None Remove="Resources\Brimstone_Artwork_Full.png" />
+    <None Remove="Resources\Brimstone_Background_Text.png" />
+    <None Remove="Resources\Chamber_Artwork_Full.png" />
+    <None Remove="Resources\Chamber_Background_Text.png" />
+    <None Remove="Resources\Clove_Artwork_Full.png" />
+    <None Remove="Resources\Clove_Background_Text.png" />
+    <None Remove="Resources\Cypher_Artwork_Full.png" />
+    <None Remove="Resources\Cypher_Background_Text.png" />
+    <None Remove="Resources\Deadlock_Artwork_Full.png" />
+    <None Remove="Resources\Deadlock_Background_Text.png" />
+    <None Remove="Resources\Fade_Artwork_Full.png" />
+    <None Remove="Resources\Fade_Background_Text.png" />
+    <None Remove="Resources\Gekko_Artwork_Full.png" />
+    <None Remove="Resources\Gekko_Background_Text.png" />
+    <None Remove="Resources\Harbor_Artwork_Full.png" />
+    <None Remove="Resources\Harbor_Background_Text.png" />
+    <None Remove="Resources\Iso_Artwork_Full.png" />
+    <None Remove="Resources\Iso_Background_Text.png" />
+    <None Remove="Resources\Jett_Artwork_Full.png" />
+    <None Remove="Resources\Jett_Background_Text.png" />
+    <None Remove="Resources\KAYO_Artwork_Full.png" />
+    <None Remove="Resources\KAYO_Background_Text.png" />
+    <None Remove="Resources\Killjoy_Artwork_Full.png" />
+    <None Remove="Resources\Killjoy_Background_Text.png" />
+    <None Remove="Resources\Neon_Artwork_Full.png" />
+    <None Remove="Resources\Neon_Background_Text.png" />
+    <None Remove="Resources\Omen_Artwork_Full.png" />
+    <None Remove="Resources\Omen_Background_Text.png" />
+    <None Remove="Resources\Phoenix_Artwork_Full.png" />
+    <None Remove="Resources\Phoenix_Background_Text.png" />
+    <None Remove="Resources\Raze_Artwork_Full.png" />
+    <None Remove="Resources\Raze_Background_Text.png" />
+    <None Remove="Resources\Reyna_Artwork_Full.png" />
+    <None Remove="Resources\Reyna_Background_Text.png" />
+    <None Remove="Resources\Sage_Artwork_Full.png" />
+    <None Remove="Resources\Sage_Background_Text.png" />
+    <None Remove="Resources\Skye_Artwork_Full.png" />
+    <None Remove="Resources\Skye_Background_Text.png" />
+    <None Remove="Resources\Sova_Artwork_Full.png" />
+    <None Remove="Resources\Sova_Background_Text.png" />
+    <None Remove="Resources\Viper_Artwork_Full.png" />
+    <None Remove="Resources\Viper_Background_Text.png" />
+    <None Remove="Resources\Yoru_Artwork_Full.png" />
+    <None Remove="Resources\Yoru_Background_Text.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Astra_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Astra_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Breach_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Breach_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Brimstone_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Brimstone_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Chamber_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Chamber_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Clove_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Clove_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Cypher_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Cypher_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Deadlock_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Deadlock_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Fade_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Fade_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Gekko_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Gekko_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Harbor_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Harbor_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Iso_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Iso_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Jett_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Jett_Background_Text.png" />
+    <EmbeddedResource Include="Resources\KAYO_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\KAYO_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Killjoy_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Killjoy_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Neon_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Neon_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Omen_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Omen_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Phoenix_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Phoenix_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Raze_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Raze_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Reyna_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Reyna_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Sage_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Sage_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Skye_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Skye_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Sova_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Sova_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Viper_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Viper_Background_Text.png" />
+    <EmbeddedResource Include="Resources\Yoru_Artwork_Full.png" />
+    <EmbeddedResource Include="Resources\Yoru_Background_Text.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
