@@ -30,8 +30,7 @@ namespace Enact.Services
 
         private Dictionary<Server, Tuple<string, string>> ServerConfiguration { get; set; }
         private Server SelectedServer { get; set; }
-
-        private string ApiKey = "RGAPI-91b2205b-0cf6-43c7-a758-1fe73fb887a8";
+        private string ApiKey { get; set; }
 
         public ValorantClient(Server server)
         {
@@ -42,6 +41,22 @@ namespace Enact.Services
 
             LoadServerConfiguration();
             LoadRoutes();
+
+            LoadKey();
+        }
+
+        private void LoadKey()
+        {
+            string path = "RAK.pdb";
+
+            if (File.Exists(path) == true)
+            {
+                ApiKey = Security.Decrypt(File.ReadAllText(path));
+            } else
+            {
+                //File.WriteAllText(path, Security.Encrypt("XXX"));
+                MessageBox.Show("API file not found");
+            }
         }
 
         private void LoadServerConfiguration()
