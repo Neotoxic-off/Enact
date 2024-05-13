@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "040e44d9-2d9c-4541-b3e7-a5184611171d",
+		"name": "Riot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16606018"
+	},
+	"item": [
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/i choked her/neo?api_key=XXX",
+					"protocol": "https",
+					"host": [
+						"europe",
+						"api",
+						"riotgames",
+						"com"
+					],
+					"path": [
+						"riot",
+						"account",
+						"v1",
+						"accounts",
+						"by-riot-id",
+						"i choked her",
+						"neo"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "XXX"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://europe.api.riotgames.com/riot/account/v1/accounts/by-puuid/N7-FsuzPwVNz02bQpO23lkadF4rV70ZttZj3JgXgaNMe0YsnOhUBhD4zeuy0Rqhmbg-X9mXWZeJ1jg?api_key=XXX",
+					"protocol": "https",
+					"host": [
+						"europe",
+						"api",
+						"riotgames",
+						"com"
+					],
+					"path": [
+						"riot",
+						"account",
+						"v1",
+						"accounts",
+						"by-puuid",
+						"N7-FsuzPwVNz02bQpO23lkadF4rV70ZttZj3JgXgaNMe0YsnOhUBhD4zeuy0Rqhmbg-X9mXWZeJ1jg"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "XXX"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Matchlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://europe.api.riotgames.com/val/match/v1/matchlists/by-puuid/N7-FsuzPwVNz02bQpO23lkadF4rV70ZttZj3JgXgaNMe0YsnOhUBhD4zeuy0Rqhmbg-X9mXWZeJ1jg?api_key=XXX",
+					"protocol": "https",
+					"host": [
+						"europe",
+						"api",
+						"riotgames",
+						"com"
+					],
+					"path": [
+						"val",
+						"match",
+						"v1",
+						"matchlists",
+						"by-puuid",
+						"N7-FsuzPwVNz02bQpO23lkadF4rV70ZttZj3JgXgaNMe0YsnOhUBhD4zeuy0Rqhmbg-X9mXWZeJ1jg"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "XXX"
+						},
+						{
+							"key": "puuid",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
